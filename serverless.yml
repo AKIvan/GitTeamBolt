@@ -1,0 +1,9 @@
+teambolt:
+  component: '@sls-next/serverless-component@3.5.3'
+  inputs:
+    domain: ['teambolt', 'ocdev.io']
+    bucketName: teambolt-static
+    name:
+      defaultLambda: teambolt-default-lambda
+      apiLambda: teambolt-api-lambda
+      imageLambda: teambolt-image-lambda
